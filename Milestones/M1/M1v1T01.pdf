@@ -1,0 +1,891 @@
+                SW Engineering CSC648-01 Summer 2024
+
+                                       Milestone 1
+
+                                              CodeConnect
+                                           Team 1 - PikaDevs
+                     Max Shigeyoshi - mshigeyoshi@sfsu.edu - Team Lead
+                        Aaron Rayray - arayray@sfsu.edu - Github Master
+                               Noah Hai - nhai@sfsu.edu - Doc Editor
+                       Shez Rahman - srahman2@sfsu.edu - Backend Lead
+                       Ghadeer Al-Badani - galbadani@sfsu.edu - Backend
+                         Majd Alnajjar - malshemari@sfsu.edu - Frontend
+                        William Pan - wpan1@sfsu.edu - Database Admin
+                        Phillip Ma - pma1@mail.sfsu.edu - Frontend Lead
+
+                                                 6/13/2024
+
+History Table:  Changes
+ Date
+Executive Summary:
+         The rise of software development has opened pathways for people all over the world to
+
+innovate, express, and even attain economic mobility for themselves and their families. Learning
+how to code is learning how to learn – while anyone can do it, there exist barriers of entry that
+can discourage or slow down the journeys of aspiring programmers; these barriers include the
+intimidation factor of learning new tools, as well as a lack of social support. While other
+companies have contributed to this pool with collaborative environments and guided tutorials,
+there exists a need in the marketplace for a website that not only cultivates skill growth and
+career mobility but also actively connects coders with each other. A hub is needed for coders to
+connect with their peers, find mentors, or create new friendships over a common interest in
+coding.
+
+         This is where CodeConnect takes the wheel. CodeConnect user profiles celebrate their
+journeys and progress by highlighting skills and interests with projects they’ve worked on,
+courses or challenges they’ve completed, communities they are a part of, and more. Through our
+website, coders can join groups and participate in forums targeted towards niche technical
+interests, and become deeper rooted in their communities through events and social gatherings
+promoted by other users through the website. The website encourages a diversity of different
+skill levels by enabling mentorship programs with different tiers of subscriptions at the discretion
+of the mentors, who are also encouraged to take on mentees through their own points and
+ranking system as mentors. This encourages people of all skill levels to connect with each other,
+enabling the upward mobility of all users. Mentorships can work through a variety of mediums
+including group classes, 1 on 1 sessions, prerecorded tutorials, resume advice, or mock
+interviews.
+
+         Along with sharing projects or certifications done through external sources, CodeConnect
+also provides tutorial packages and challenges on a range of different software sectors. By
+participating in these exercises, user profiles are further enriched, and recommendations for
+connections based on these interests are fostered for mentorships and connections with new
+peers.
+Personas:
+    - (Aspiring Developer)
+    - (Student)
+    - (Mentor)
+    - (Coder)
+    - (Employment Prepper)
+    - (Interview Facilitator)
+    - (Verified Software Engineer)
+    - (Resume Assistant)
+    - (Startup Founder/entrepreneurs)
+    - (Recruiter)
+    - (Experienced Programmer)
+    - (Coding Enthusiast)
+    - (Bootcamp Graduate)
+    - (CS Graduate)
+    - (CE Graduate)
+    - (Internship Seeker)
+    - (Freelancer)
+    - (No-experience coder)
+    - (Full-time Job seeker)
+    - (coding instructor)
+    - (hackathon organizer)
+    - (Project Manager)
+    - (Game Developer)
+    - (Cybersecurity Specialist)
+    - (Programming Specialist)
+    - (Data Analysts)
+    - (Transitioning to a Tech Career)
+    - (College Instructor)
+    - (Experience with Frontend but not Backend)
+    - (Investor)
+    - (Aspiring Hackathon Participant)
+
+Use-Cases:
+1)
+
+    - Actors: Toby(User), CodeConnect(Company)
+    - Assumptions:
+    ● Toby is a Computer Science Student.
+    ● Toby is looking for a job within the tech industry.
+    - Use Case:
+Toby is a senior at San Francisco State University and is coming close to finishing up his years in
+college. He is overwhelmed by the lack of internship opportunities that he has had throughout his
+college years. He is concerned that he will not have any experience when it comes to finding a
+job after he graduates. He started his undergraduate degree in Computer Science during the peak
+of COVID-19, so it was hard to network with other classmates during remote and Zoom
+meetings. He searched online for a networking website strictly for coders and computer science
+students, leading to his finding of CodeConnect. The website had much to offer, beginning from
+learning the basics of each language and to finding new friends to talk about their internship
+experiences. He found a section that even allowed him to learn about exact questions used for
+specific companies and their roles. Although these features were useful towards Toby, that
+wasn’t his main point of going on this website. He wanted to get an internship/job after his
+college years. This led him to dive into the website more and find a resume helper/builder and
+get feedback on his current one. After fixing up his resume, now he wanted to learn more about
+technical interviews and how to ace them. He finally found the interview helper and that guided
+him to learn more about problem sets and how to respond to interviewers with more intent of
+learning on the job, due to no experience. With all these tools available from this website, he
+finally landed a job 3 months later.
+    - Benefits for Toby:
+    ● Met new people in his field to network and gain more information
+    ● Found a new website that allowed him to learn and get accessible help from experienced
+
+         coders
+    ● Relieved the stress of post-graduate job searching
+2)
+    - Actors: Harold(User), CodeConnect(Company)
+    - Assumptions:
+    ● Harold has no experience programming.
+    ● Harold wants to learn coding basics and see if he likes it.
+
+Use Case:
+         Harold has been working as a barista for 6 years and has decided that he wants to venture
+
+into something that generates more income and isn’t as hard on his body. He’s creative and likes
+playing video games, so he’s always been curious about how he’d do making software. Harold’s
+also an extrovert and learns better in group settings, but he doesn’t want to make the commitment
+to going to school to learn how to code. At the same time, he wants something credible and serial
+– not just a simple YouTube tutorial for a single program. Harold types in “coding lessons” in
+Google and finds CodeConnect. At a glance, he sees a tutorial for a basic “Hello World!” java
+program, completes it, and gains points. Harold is invited to create an account to log the points
+he just earned, and eager to do so with the dopamine from achievement, he creates his profile.
+He’s recommended a couple of connections who have completed the same tutorial as well as a
+mentor who does group sessions every Tuesday at 6 pm. Harold attends his first intro to Java
+group session and meets other like-minded beginner coders as well as a mentor who he continues
+building on his coding journey with.
+
+    - Benefits for Harold:
+    ● Learned coding basics in Java and has access to serial tutorials
+    ● Connected with other beginner coders
+    ● Connected with a mentor
+
+3)
+    - Actors: Josh(User), CodeConnect(Company)
+    - Assumptions:
+    ● Josh is an experienced coder.
+    ● Josh is looking for interview help.
+
+Use Case:
+Josh is an experienced coder who wants to improve his interview skills as he looks for a new job.
+He has utilized a wide variety of programming languages and development methodologies
+during his career. He feels unprepared for coding jobs at the moment because they need an
+entirely new set of abilities and perspectives. Josh comes upon CodeConnect while browsing the
+web completely by accident; it's a platform where programmers can interact, share knowledge,
+learn from one another, and prepare for interviews. Josh comes upon CodeConnect while
+browsing the web completely by accident; it's a platform where programmers can interact, share
+knowledge, learn from one another, and prepare for interviews. Curious, he decides to sign up
+and check out the service, which he finds enjoyable. Josh finds a wealth of useful materials,
+including an exhaustive list of frequently asked interview questions, which are sorted by firm
+and job. During mock interviews, his teachers and friends provide him with immediate feedback,
+which he eagerly incorporates to enhance his performance and boost his confidence for
+upcoming interviews. As a result of these sessions, Josh is able to recognize phony job
+interviews and improve his replies and coding skills with the help of recorded comments he finds
+online. His impressive use of these methods during practice interviews shows how far he has
+come and boosts his confidence. Josh is getting closer and closer to landing his ideal job thanks
+to the help of CodeConnect. He feels prepared for his future interviews.
+
+    - Benefits for Josh:
+    ● Sharpened interview abilities via practice and feedback sessions
+    ● Access to an extensive database of interview materials, including FAQs, which will help
+
+         with thorough preparation
+    ● Gained a better grasp of computer programming after using CodeConnect feedback and
+
+         resources
+
+4)
+    - Actors: Caroline(User), CodeConnect(Company)
+    - Assumptions:
+    ● Caroline is a recruiter.
+    ● Caroline is looking to hire a new employee.
+    - Use Case:
+
+Caroline is a recruiter for a company, and looking to hire a new employee. Caroline is going
+through the hiring process at her company and doesn’t really know how to differentiate between
+many of the qualified applicants. Since Caroline isn’t a programmer, she may need to consult
+with other members of her hiring team who are and will need to find more information as to the
+abilities of the applicants. Her company has their own testing, however, Caroline has doubts as to
+how rigorous those tests are and is looking for more information that could help her determine
+the applicant's abilities. Some of the applicants have added that they are members of our website,
+and Caroline is going to sign up for our Recruiter member profile. After verifying her
+employment, Caroline can see the solutions of the potential employees and was able to send
+these solutions to other team members to verify that these solutions are signs of a capable
+Software Engineer/Programmer. Caroline was able to search through our rankings and see the
+relative rankings of all the applicants that she was searching for during her hiring process. Since
+she was able to see the potential of some of the qualified applicants, Caroline was able to make a
+more informed decision about who she should hire.
+
+    - Benefits for Caroline:
+    ● The capability to verify the coding abilities of a possible employee.
+    ● The ability to make a better hiring decision based on the information we provide about
+
+         our member's abilities.
+    ● The ability to connect with other potential employees.
+
+          ● The ability to share the information from our website with other team members.
+
+5)
+    - Actors: Heide(User), CodeConnect(Company)
+    - Assumptions:
+    ● Heide is an experienced coder, working in the tech industry.
+    ● Heide wants to mentor the next generation of coders.
+    - Use Case:
+Heide is a front-end Software Engineer for BigCommerce and is looking for ways to help others
+learn. Heide is from a small town and there aren't many big tech companies around as she works
+remotely for her job. She graduated with a B.A. in Computer Science in 2017 and has been
+working at BigCommerce since then. She loves her job but hopes to teach the youth and others
+what she has been taught and doesn’t want to gatekeeper her knowledge. Heide then scrolls the
+internet for places to volunteer and can’t seem to find anything locally as she lives in a small
+town. She finally comes across a website called CodeConnect and she explores the wonders it
+has to offer. Judging from the website, she thought it was initially just another website with
+information on learning how to code until she stumbled upon a feature stating, “Have
+experience? Mentor now!” This is exactly what she was looking for, she then signs up for an
+account and goes through the mentorship approval stages. Also with doing this, she updates her
+portfolio and resume so the verifiers can go through her approval quicker. The next stage was the
+simple interview process to make sure Heide was the real deal and in less than a week, she was
+approved. She now owns the Mentor role for this website and could teach/give lessons to others
+within the virtual workspace. She also has the authority to leave feedback on code review and
+interview help.
+
+    - Benefits for Heide:
+    ● Gaining mentorship experience
+    ● Giving others her knowledge within the tech industry
+    ● Giving back to the community as that is what she wanted to do initially
+6)
+    - Actors: Jeffrey(User),CodeConnect(Company)
+    - Assumptions:
+    ● Jeffrey is a new graduate, with a few projects in his portfolio
+    ● Jeffrey is looking to learn some new languages, in order to expand his coding experience.
+    - Use Case:
+
+Jeffrey is a new graduate just starting to look for work in the tech industry as a software
+developer. He has a few projects from school and has a few languages under his belt, however,
+he has been looking to expand his experience a bit. He finds Leetcode challenges enjoyable, but
+once he is stuck on a problem he finds it difficult to figure out resources or mentorship to help
+him. After a quick Google search, Jeffrey found our website and noticed that we offer
+mentorship with other more senior members on our website. He also noticed that many of the
+languages that he wanted to learn had challenge problems that he could work through to learn the
+language. Jeffrey made an account on our site, and starting working on the challenges until he
+found one that he wasn’t familiar with. He then utilized our chat feature to talk to other users in
+the attempt to gain more insight on the problem and was able to figure out the problem with their
+help. After a few more problems, he found a problem that he was having problems with, and
+after consulting the chat, with little success, he decided to attempt to reach out to a mentor. After
+connecting with a mentor, Jeffrey was able to work through a few of the more challenging
+problems successfully.
+
+    - Benefits for Jeffrey:
+    ● Can experience new languages in the challenges we provide.
+    ● Able to gain help through the chat feature, as well as the mentor program.
+    ● Now has experience that he can speak to in interviews for jobs he is applying for.
+
+7)
+    - Actors: Tiffany(User),CodeConnect(Company)
+    - Assumptions:
+    ● Tiffany is an experienced designer
+    ● Tiffany needs backend programming for a freelance project
+    - Use Case:
+         Tiffany is an experienced designer and has been working on the front end of projects at
+
+the same company for 3 years. While she’s happy where she’s at, she wants to take on freelance
+projects for more creative freedom and to make extra income on the side. Luckily, a potential
+client approached her with an idea for a smartphone app where you count sheep flying through
+the sky to help you fall asleep. However, one issue is that she doesn’t have much experience
+connecting the back end with the design work she does. In order to remedy this, she has two
+options – either learn how to code on the backend or find someone who would be a partner for
+her on the project. She remembers a story from a friend who said they basically lived on
+CodeConnect to build a passion project in the past and visited the website by word of mouth. In
+the process of creating a profile, she marks that she has front-end experience and an interest in
+learning backend development. She is then recommended connections with other developers
+with backend experience and realizes she can use these recommendations to find a partner
+instead of expending time and resources she didn’t have to learn how to take on this project by
+herself. She also has access to more tutorials to learn backend programming at her own pace.
+
+    - Benefits for Tiffany:
+    ● Tiffany was able to find a partner to accept a freelance project.
+    ● Tiffany can learn backend programming at her own pace.
+
+8)
+    - Actors: Joakim(User),CodeConnect(Company)
+    - Assumptions:
+    ● Joakim has had a CodeConnect profile for 3 months
+    ● Joakim needs a team for a hackathon
+    - Use Case:
+
+         Joakim wants to participate in his first hackathon but has no experience doing so. As an
+introvert, he hasn’t made many friends throughout school but needs a team to participate. Since
+Joakim has already graduated from SFSU, there aren’t many ways for him to meet other
+programmers without scouring websites like StackOverFlow and GitHub. Fortunately, since he
+has been using CodeConnect for 3 months and has built a profile that lists a sizable amount of
+challenges and projects he has completed, he knows he can rely on CodeConnect to link him
+with people he might work well with. He goes into a group he’s already a member of on
+CodeConnect titled “SFSU Alumni”, and posts in a forum that he’s looking for other teammates
+for an upcoming hackathon. Five other members of the group reply indicating interest. Joakim
+looks at their profiles to see challenges they have completed, groups they’re a part of, and their
+about sections to get a feel for who may be the best matches for his team. He contacts his two
+favorite users expressing that he would love to group up with them. They form a team and
+Joakim participates in his first hackathon.
+
+    - Benefits for Joakim:
+    ● Joakim was able to find teammates with compatible skills and personalities.
+    ● Joakim was able to enter his first hackathon.
+9)
+    - Actors: Tory(User),CodeConnect(Company)
+    - Assumptions:
+    ● Tory is a startup CEO trying to find investors for her tech company
+    ● Tory has little connection in the tech industry
+    - Use Case:
+                  Tory is an entrepreneur with a background in biochemistry but lacks connections
+         in the tech industry. She got the brilliant idea of using AI to detect cancer through blood
+         samples. By discovering CodeConnect, she creates a detailed profile and uploads her
+         innovative ideas. Her post quickly gained lots of interaction scores in the community and
+         became one of the most talked-about topics in the forum attracting numerous messages of
+         support and interest. Through CodeConnect, Tory connects with AI experts eager to
+         collaborate, attends workshops that refine her strategy, and engages with angel investors
+         interested in her project. After successful pitches and negotiations, she secures funding
+         from an investor passionate about her startup. With technical support from her new
+         connections and financial backing, Tory's startup makes significant strides.
+         Benefits for Tory:
+    ● Tory shall able to connect with industry experts
+    ● Tory shall able to find an angel investor that expands her company
+
+10)
+    - Actors: Dan(User),CodeConnect(Company)
+    - Assumptions:
+    ● Dan is an angel investor interested in technologies and healthcare innovations.
+    ● Dan is busy and wants to have a virtual discussion with startup CEO
+    - Use Case:
+                  Dan is an angel investor interested in technologies and healthcare innovations. He
+         heard that codeConnect has a lot of interesting startups, so he created his profile by
+         uploading a picture and setting up his account to the public. While exploring the
+         platform, he comes across Tory’s startup, which uses AI to detect cancer from blood
+         samples. Her project is trending with a high interaction score, so Dan checks out her
+         profile, follows her, and sends a direct message to learn more. They schedule a meeting
+         through the codeConnect calendar, and after a thorough discussion, Dan is impressed by
+         Tory's vision and the progress she's made with AI experts. Thus, he decides to invest in
+         Tory's company. To further support Tory, Dan subscribes to premium features,
+         participates in group workshops, and uses the virtual workspace for collaboration. He
+         also uses the internship/job portal to help Tory find top talent, ensuring her startup's
+         growth and success.
+    - Benefits for Dan:
+    ● Dan shall be able to expand his investment opportunities in a more efficient way
+    ● Dan shall be able to gain deeper insights by connecting with startup CEOs directly
+
+Main Data Items and Entities
+Data Structure:
+
+    - User : The user that creates the account.
+             - User ID
+             - First Name
+             - Last Name
+         - User Name
+         - Membership Status (Free user, paid user, mentor)
+         - Email
+         - Password
+         - Points
+         - Rank
+
+- Premium User : A user that has paid the subscription fee for premium features
+         - All data from normal user
+         - Payment information
+
+- Mentor User : A user that has become a mentor to other users. Must be approved by
+    interview.
+         - All data from normal user
+         - Payment information
+         - Number of solution feedback forms completed
+         - List of mentor groups mentored
+
+- Profile : The user’s profile which has information about the user.
+         - User ID (From user who posted)
+         - Profile ID
+         - Profile type (student, mentor, recruiter, etc)
+         - Profile info (current role, education)
+         - Resume
+         - Project
+         - External links
+         - Rank
+
+- Forum post : Posts that users can create in order to interact with the larger community.
+         - User ID (from user who posted)
+         - User rank
+         - Post ID
+         - Post title
+         - Post content
+         - Post comment
+         - Post code block
+         - Post time
+         - Post likes
+
+- Mentor forum post:
+         - Forum post
+         - Mentor tag for mentors
+
+- Coding challenge : The coding challenges that each user has access to and can attempt to
+    solve.
+         - User ID (from user who posted)
+         - Coding title
+         - Coding ID
+         - Coding desc
+         - Coding language
+         - Coding difficulty
+         - Coding code block
+         - Coding submission deadline
+         - Coding leaderboard
+         - Coding rank points
+         - Coding participants
+         - Coding solutions
+         - Coding tests
+
+- Coding challenge feedback : The review form that mentors use to give feedback to
+    mentees on their coding challenge solutions.
+         - Coding challenge solution
+         - Evaluation of formatting of solution code
+                  - Written comment by mentor
+                  - Scale of 1-10 rating
+         - Evaluation of efficiency of code logic
+                  - Written comment by mentor
+                  - Scale of 1-10 rating
+         - Evaluation of utility of comments
+                  - Written comment by mentor
+                  - Scale of 1-10 rating
+
+- Rankings : the different icons and titles that users can acquire as they gain more points
+         - Collection of ranking titles
+         - Collection of ranking icons
+         - Total amount of points owned
+         - Points until next ranking
+
+- Group : users can join these to bond over commonalities such as being alumni from the
+    same school, or having interest in a certain technology
+         - Member users
+         - Private forum for member users
+
+                  - Forum posts
+
+- Mentor group : a group for mentors to communicate with their mentees
+         - Mentor users
+         - Mentee users
+         - Private forum for members
+         - Resource page
+
+- Groups : a list of all groups for access
+         - List of mentor groups
+         - List of regular groups
+
+- Mentor program : Mentorship program that users (free and premium) can attempt to sign
+    up for.
+         - User ID (from user who posted)
+         - Program ID
+         - Program title
+         - Program desc
+         - Program length
+         - Program schedule
+         - Mentor group
+
+- Job listing : Job listings that are available for any user to apply for.
+         - User ID (from user who posted)
+         - Job ID
+         - Job title
+         - Job company
+         - Job location
+         - Job desc
+         - Job requirements
+         - Job date posted
+         - Job app link
+
+- Meeting : Meeting rooms which users can use to meet with other users (free or premium).
+         - User ID (from user who posted)
+         - Meeting date
+         - Meeting title
+         - Meeting invitees (list of user_ID’s)
+Functional Requirements: (50+)
+    1. All users:
+         1.1 Users shall be able to explore some portions of the product without a profile
+         1.2 Users shall be able to solve an example problem.
+         1.3 Users shall create a profile
+         1.4 Users shall be able to Log in/Log out (only with created profile)
+         1.5 Users shall be able to use a SSO login for companies/schools
+         1.6 Users shall be able to upload profile picture
+         1.7 Users shall be able to Delete profile
+         1.8 User shall be able to update payment information
+         1.9 Users shall be able to make their account private or public
+         1.10 Users shall be able to check personal coding stats
+         1.11 Users shall be able to follow other users/mentors
+         1.12 Users shall be able to check other users profiles/stats
+         1.13 Users shall be able to do coding challenges
+         1.14 Users shall be able to see popular submissions
+         1.15 Users shall be able to award different profile trophies for achievements
+         1.16 Users shall be able to allow switching coding languages for challenges (cross
+         compatibility)
+         1.17 Users shall be able to earn points for coding challenges
+         1.18 Users shall be able to like/dislike/comment on challenge posts
+         1.19 Users shall be able to view interaction score within community (liked
+         comments/posts increases score)
+         1.20 Users shall be able to check their coding ranking
+         1.21 Users shall be able to check leaderboards
+         1.22 Users shall be able to subscribe to Premium
+         1.23 Users shall be able to unsubscribe to Premium
+         1.24 Users shall be able to see pop-up ads for premium/paid utilities
+         1.25 Users shall be able to application survey for mentorship
+         1.26 Users shall be able to request code review (premium)
+         1.27 Users shall be able to access the internship/job portal
+         1.28 Users shall be able to access internship questionnaire
+         1.29 Users shall be able to request code review (premium)
+         1.30 Users shall be able to access the internship/job portal
+         1.31 Users shall be able to access internship questionnaire
+         1.32 Users shall be able to connect other socials
+1.33 Users shall be able to take mock assessments
+1.34 Users shall be able to request additional features from the dev team
+1.35 Users shall be able to utilize live chat w/ other users
+1.36 Users shall be able to direct message other users
+1.37 Users shall be able to access free/paid resources (videos/textbooks)
+1.38 Users shall be able to check coding streak counter
+1.39 Users shall be able to create a portfolio
+1.40 Users shall be able to check/update portfolio
+1.41 Users shall be able to change portfolio visibility (public/private)
+1.42 Users shall be able to access portfolio review
+1.43 Users shall be able to utilize chatbot
+1.44 Users shall be able to access virtual workspace
+1.45 Users shall be able to utilize feedback system (users can submit feedback regarding
+the app)
+1.46 Users shall be able to open source/collaborative coding projects (users can
+participate in other peoples coding projects)
+1.47 Users shall be able to read weekly digests (recommendations created for users based
+on interests/what they worked on)
+1.48 Users shall be able to take mock interviews (practice interviews with real time
+communication and feedback from peers and other users)
+1.49 Users shall be able to view featured users (spotlights user that's completed most
+challenges/stayed the most active for the past month. Featured user gets changed
+monthly)
+1.50 Users shall be able to utilize pair programming sessions (allows users to work on
+projects/code collaboratively)
+1.51 Users shall be able to utilize discounts/offers on apps premium features
+1.52 Users shall be able to read technical news
+1.53 Users shall be able to interact with ranking/points system for mentors
+1.54 Users shall be able to join group session workshops led by mentors
+1.55 Users shall be able to link account to other socials(github,linkedin,etc)
+1.56 Users shall be able to view/update their own calendar(scheduled hackathons, virtual
+meetings..)
+1.57 Users shall be able to create Recruiter/Hiring Manager specific profile
+1.58 Users shall be able to pass a Recruiter/Hiring manager verification/background
+check
+1.59 Users shall be able to utilize a button to change the screen to dark mode.
+1.60 Users shall be able to get assessed to become a mentor
+1.61 Users shall be able to use an IDE without having to create an account
+1.62 Users shall be able to run test problems but not solve
+1.63 Users shall be able to choose their preferred speaking language
+    1.64 Users shall be able to choose their own country/region
+    1.65 Users without premium shall be able to view three solutions per month
+    1.66 Users shall be able to see the difference between premium and free membership
+    perks
+    1.67 Users shall be able to gain points by starting forum threads
+    1.68 Users shall be able to gain points by commenting in threads
+    1.69 Users shall be able to gain points by gaining friends
+    1.70 Users shall be able to gain points by gaining mentees
+    1.71 Users shall be able to gain points by gaining mentors
+    1.72 Users shall be able to post text and images to their profiles
+    1.73 Users shall be able to view a timeline feed of other users’ updates and activities
+    1.74 Users shall be able to earn coins
+    1.75 Users shall be able to trade coins for premium subscriptions
+    1.76 Users shall be able to search for other users
+    1.77 Users shall be able to search for groupsUsers shall be able to receive notifications
+    for new coding challenges.
+    1.78 Users shall be able to receive notifications for messages and comments.
+    1.79 Users shall be able to customize notification preferences.
+    1.80 Users shall be able to bookmark coding challenges.
+    1.81 Users shall be able to save forum posts for later reading.
+    1.82 Users shall be able to report inappropriate content.
+    1.83 Users shall be able to block or mute other users.
+    1.84 Users shall be able to set privacy settings for profile visibility.
+    1.85 Users shall be able to view the history of coding challenges attempted.
+    1.86 Users shall be able to request a mentor recommendation.
+    1.87 Users shall be able to participate in live coding sessions.
+    1.88 Users shall be able to join virtual coding bootcamps.
+    1.89 Users shall be able to create and manage a personal blog.
+    1.90 Users shall be able to subscribe to specific topics or tags.
+    1.91 Users shall be able to access analytics on their coding performance.
+
+2. Free Users:
+    2.1 Free Users shall be able to check the most average solutions after completing a
+    challenge.
+    2.2 Free Users shall be able to check code challenge repo
+    2.3 Free users shall be able to view three pseudocode hints per month
+
+3. Premium Users:
+    3.1 Premium Users shall be able to check all solutions after completing a challenge
+    3.2 Premium Users shall be able to request mentorship (premium)
+         3.3 Premium Users shall be able to Match mentors with similar coding language
+         experience
+         3.4 Premium users shall be able to view one pseudocode hint per challenge
+         3.5 Premium Users shall be able to create code challenge repo, which are reviewed by the
+         dev team prior to publication.
+         3.6 Premium Users shall be able to check/update code challenge repo
+
+    4. Mentor Users:
+         4.1 Mentor Users shall be able to review code solutions of other users they are mentoring.
+         4.2 Mentor Users shall be able to set up group work stations.
+         4.3 Mentor Users shall be able to create coding challenges.
+         4.4 Mentor Users shall be able to review Free/Premium users resumes/portfolios
+         4.5Mentor users shall be able to complete challenge feedback on coding challenges
+         completed by mentees
+         4.6 Mentor users shall be able to gain points by completing challenge feedback on
+         mentee solutions
+         4.7 Mentor Users shall be able to upload videos
+         4.8Mentor users shall have their number of mentees displayed on their profiles
+         4.9Mentor users shall have their number of solutions reviewed displayed on their profiles
+         4.10 Mentor users shall have the groups they lead displayed on their profilesUsers shall
+         be able to receive notifications for new coding challenges.
+
+Non-Functional Requirements:
+    1. Database Specs
+         1.1) Databases should use transparent data encryption (TDP) to encrypt data at reset with
+         AES.
+         1.2) Databases should dynamically mask and de-identify users' PII information for
+         database users and accessed only for privileged ones.
+         1.3) Critical databases should automatically save backups preferably once a day.
+         1.4) Database’s Backups should be kept for at least 7 days in a cost effective storage
+         solution like AWS S3 bucket.
+         1.5) Databases should store audit logs according compliance standards and have low
+         overhead on the performance.
+         1.6) Any database audit logs should be filtered for sensitive data, encrypted, and
+         compressed.
+         1.7) Website databases should be able to scale vertically and horizontally with less than 2
+         hours downtime.
+    1.8) App databases should be able to run when needed, in a high availability cluster (HA)
+    with automated failover and fault tolerance.
+    1.9) Any database’s super user (SA) and backend user should have at least 32 random hex
+    characters password.
+2. Storage
+    2.1) Premium users shall have all the same information from a free user, but will also
+    have payment information included.
+    2.2) Job posts shall be in their own database, linked to user_ID.
+    2.3) We shall only have one user database, which indicates what type of user (free,
+    premium, mentor) that user is.
+    2.4) Payment information will be in its own database, linked to a user_ID.
+    2.5) Forum posts shall be housed in their own database, linked to user_ID.
+    2.6) user_ID is used to tie all posts to a single user on the backend, but the username will
+    be used for searching purposes.
+3. Security
+    3.1) Passwords should be saved using at least a 256 bit hashing algorithm like SHA-256.
+    3.2) Any database that stores payment information must be PCI compliant. If standards
+    could not be met, they can be stored with a PCI certified external provider.
+    3.3) Passwords should be hashed with at least 128 bytes of random generated salt to
+    prevent rainbow tables attack.
+    3.4) Website backend should connect to the database with SSL in case they are in
+    different instances.
+    3.5) The website should use generated SSL certificates to secure data in transit.
+    3.6) Website backend or load balancer if used should prevent HTTP connections and
+    forward them to HTTPS.
+    3.7) Website backend should verify requests source domain with CORS.
+    3.8) Website backend should set required headers to prevent cross site scripting.
+    3.9) Website backend should be able to run on multiple servers using a load balancer.
+    3.10) Website backend should be able to generate a json web token (JWT) that expires in
+    8 hours or 60 days to keep me signed in logins.
+    3.11) The website should provide a forget me functionality to allow password resets.
+    3.12) The generated token must be encrypted using an at least 32 characters random
+    secret.
+    3.13) The generated token should include the unique user id to facilitate authorization.
+    3.14) Required authenticated requests should use browser cookies to store the token.
+    3.15) After a sign up, an email verification should be sent and prevent the user from
+    signing in until verified.
+    3.16) Need an SSL in order to encrypt the network traffic from our website.
+    3.17) The backend should be able to identify users from the previously mentioned tokens
+    and reject expired ones.
+    3.18) The backend should be able to run at least 10 solutions parallelly in separate
+    environments.
+    3.19) The backend should be able to accept run requests even at max capacity and
+    manage executions on a first come first serve basis.
+4. Performance
+    4.1) A continuous integration and continuous delivery pipeline (CI/CD) should be
+    developed after first release to facilitate fast, reliable updates.
+    4.2) The email verification and password reset urls should use tokens that expire after 30
+    minutes.
+    4.3) Chat features should be in real-time and have minimal latency.
+    4.4) The static front end files should be served from a content delivery network (CDN) to
+    enable a fast global delivery with lower backend traffic overhead.
+    The website shouldn’t take more than a few minutes to verify a solution to a challenge
+    problem.
+    4.5) All rest APIs should respond in under 5 seconds in all situations.
+    4.6) Logging into the website shouldn’t take more than a few seconds.
+    4.7) Profile Rankings should be updated live, as a person may find some challenges
+    easier than others and might complete a few of them quickly.
+    4.8) If a profile does not have a picture associated with it, there will be a default picture
+    placed.
+    4.9) The user interface should be intuitive and user-friendly, requiring no more than 3-5
+    clicks to access primary functions
+5. Expected Load
+    5.1) We would expect at least 1000 users at any given time.
+    5.2) Leaderboards should be updated every 24 hours, as people’s rankings may increase
+    rapidly during that time.
+6. Compatibility and UI
+    6.1) The UI should scale and resize based on window size.
+    6.2) Logos should be in the header and footer of every page visited
+    6.3 )All aspects of any web page concerning lists (such as lists of challenges) should be
+    the largest portion of the webpage, except the challenges which will take up all of the
+    page as it is the most important portion of the product.
+    6.4) Username is used mainly in the header to display to users they are logged in, unless .
+    6.5) Solutions should be graded within 3-5 minutes of submission.
+    6.6) Solutions should be accurate to all tests provided.
+    6.7) Solution review should only show the best solutions if the user is a premium
+    member.
+    6.8) User's machines shall run Windows and should work on any browser.
+    6.9) Links to other social media shall only be viewable on the web page of a user if the
+    user provided those links to us.
+            Competitive Analysis:
+
+Feature/Company LeetCode            LinkedIn           Stack Exchange Instagram             Udemy
+
+Strengths     Helpful splash page,  Networking,        Group Q&A,         Large user base,  Variety of topics,
+              forum posts, clean    Job search         variety of         broad             affordable, discounts,
+              UI, code challenges,  features,          topics,            advertising,      permanent access to
+                                    Company            Upvote/downvo      engaging content  purchased courses,
+                                    pages,             tes                                  good user testimonials
+                                    LinkedIn
+                                    Learning
+
+Weaknesses    Mentorship,           Limited            Difficult to find  Time              Little to no interactions
+              company presence,     interactions,      specific info,     consuming,        w/ instructors, no
+              profile presence,     spam               limited            concerns for      credentials given once
+              private messaging     notifications      interaction, not   privacy,          course is completed,
+                                                       beginner           algorithm can     quality of courses may
+                                                       friendly           affect content    vary
+                                                                          visibility
+
+Pricing       $35/mo Or $159/yr Free or                Free               Free, ad costs    Prices vary based on
+                                                                          vary              course, frequent
+                                    29.99/mo for                                            discounts/sales
+                                                                                            available
+                                    Premium
+
+Social media  Blog Posts            Blog Posts,        Meta forum         Posts, stories,   Blog posts, articles,
+                                    articles, Job      discussions,       reels, threads,   community forums,
+                                    Updates,           community          events, groups,   Meta, Twitter, LinkedIn
+                                    Position           posts              polls, IGTV,
+                                    Status,
+                                    Looking for
+                                    Employment,
+                                    Celebrating
+                                    achievements,
+                                    sharing career
+                                    milestones
+
+Onboarding    Personalized          Initial tutorial,  Account setup,     Account setup,    Easy sign up,
+experience    content, guided       guidance on        tour of features,  customizable      personalized
+              setup, tutorials for  asking/answer      recommendatio      profile, follow   recommendations for
+              features              ing questions      ns to follow       recommendation    courses, intro
+                                    from posts         people/like        s, content        videos/previews for
+                                                       pages              discovery         courses, easy UI
+
+            Competitive Analysis Summary:
+            Comparing CodeConnect with our competitors, we have a lot of functional features that will
+            stand out from the rest. One function that stands out from the rest is that we will have a live chat
+            feed from people all across the world to be able to help others with their problems and/or
+            communicate about the technological scene. Another function that stands out from our
+            competitors is that we have a live feed of our leaderboards and users can have their scores
+            displayed for an incentive. This leaderboard consists of a point system that relates to the
+            challenges. The more challenges you complete, the higher you go up in the leaderboards. We
+            offer different amounts of points for each level of challenge. Although we have some features as
+            our competitors such as coding challenges and mentorships, we offer more quality functions that
+            adds to it. For example, our coding challenges offer live support in virtual workspaces that can
+            have mentors individually help you one on one, making it more interactive unlike our
+            competitors, CodeConnect will have a live chat and mentorship programs that will allow for
+            great user support and keep them engaged. To add to this feature, we offer videos of live
+            demonstrations of completing the challenge or to subjects it’s related to. CodeConnect will also
+            include a more customized and personalized onboarding process once users first join the app,
+            taking users through a setup of personalizing their content, tutorials for features and an easy UI
+            which will allow new users to easily be able to learn our platform functionalities. CodeConnect
+            will integrate the strongest features of competitors platforms while improving their downsides
+            which will over all make it the best choice for users looking to break through in tech.
+
+            Competitive Features:
+
+            + Feature exists; ++ Superior; - Does not exist
+
+Feature/Company LeetCode           LinkedIn  Stack Exchange Instagram  Udemy   CodeConnect
+                                                                            -          +
+Direct Messaging        -          +                         -  ++         +          ++
+                                                                            -         ++
+Mentorship              -          -                         -  -           -          +
+                                                                            -         ++
+Code Review             +          -                         +  -          +           +
+
+Technical News          +          ++                        +  -
+
+Forums/Groups           +          +                         +  +
+
+Coding                  ++         -                         -  -
+
+challenges/tutorials
+
+            Checklist:
+    - Team found a time slot to meet outside of class (DONE)
+    - Github Master chosen (DONE)
+    - Team decided and agreed together on using the listed SW tools and
+    - deployment server (DONE)
+    - Team ready and able to use the chosen back and front end frameworks and
+    - those who need to learn are working on learning and practicing (ON TRACK)
+    - Team lead ensured that all team members read the final M1 and agree/
+    - understand it before submission (DONE)
+    - Github organized as discussed in class (e.g. master branch, development
+    - branch, folder for milestone documents etc.) (ON TRACK)
+
+High-Level System Architecture:
+    - Windows (OS)
+    - AWS (Servers)
+    - MYSQL (Database)
+    - Backend Framework
+             - ExpressJS (NodeJS)
+    - Frontend Framework
+             - React (Javascript)
+             - HTML5
+             - CSS
+             - Bootstrap (Javascript)
+
+List of team contributions:
+
+    - Max Shigeyoshi : (8/10)
+             - Created Doc
+             - Created 5 personas
+             - 2 use cases
+             - 33 functional requirements
+             - 23 non functional requirements
+             - 1 entity
+             - Reviewed executive summary
+             - Reviewed Tech Stack
+             - Created AWS instance
+             - Set up all dependencies
+
+    - Aaron Rayray : (9/10)
+             - formatted document
+             - 2 use case
+         - 11 personas
+         - 9 functional requirements
+         - 2 non functional requirements
+         - Competitive Analysis
+         - Reviewed executive summary
+         - Reviewed Tech Stack
+
+- Noah Hai : (7/10)
+         - 15 functional requirements
+         - 3 personas
+         - 5 entities
+         - 7 functional requirements
+         - Competitive Analysis
+         - Reviewed executive summary
+         - Reviewed Tech Stack
+
+- Shez Rahman : (7/10)
+         - 23 functional requirements
+         - 3 use case
+         - Executive Summary
+         - Reviewed Tech Stack
+         - Assisted in setting up AWS instance
+         - Assisted in troubleshooting tech stack
+
+- Ghadeer Al-Badani : (9/10)
+         - 6 personas
+         - 1 use case
+         - 33 non functional requirements
+         - reformatted all diagrams
+         - Reviewed executive summary
+         - Created Tech Stack
+         - Assisted in troubleshooting tech stack
+         - Assisted in setting up dependencies
+
+- Majd Alnajjar : (2/10)
+         - 15 functional requirements
+         - Reviewed executive summary
+         - Reviewed Tech Stack
+
+- William Pan : (6/10)
+         - 2 use case
+         - 1 persona
+         - Reviewed executive summary
+         - Reviewed Tech Stack
+
+- Phillip Ma (7/10)
+         - 18 functional requirements
+         - Competitive Analysis
+         - Reviewed executive summary
+         - Reviewed Tech Stack
+
